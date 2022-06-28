@@ -4,7 +4,7 @@ main = do
     m <- readLn
     print "Please enter second operand: "
     n <- readLn
-    print (show n ++ " ackermann " ++ show m ++ " = " ++ show (ak m n))
+    print (show n ++ " ak " ++ show m ++ " = " ++ show (ak m n))
 
 
 ak 0 b = b+1

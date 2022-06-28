@@ -5,7 +5,7 @@ main = do
     args <- getArgs
     let (m : n : _) = args
     
-    print (show n ++ " ackermann " ++ show m ++ " = " ++ show (ak (read m) (read n)))
+    print (show n ++ " ak " ++ show m ++ " = " ++ show (ak (read m) (read n)))
 
 
 ak 0 b = b+1
